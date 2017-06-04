@@ -1,5 +1,5 @@
 Title: x86寄存器基础
-Date: 2013-1-13
+Date: 2014-1-13
 Category: os
 Tags: os, bootloader, JOS, BIOS
 Author: jin

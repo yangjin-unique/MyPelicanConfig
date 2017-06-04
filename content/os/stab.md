@@ -1,5 +1,5 @@
 Title: stab释疑
-Date: 2013-1-15
+Date: 2014-1-15
 Category: os
 Tags: os, bootloader, gdb, stab
 Author: jin

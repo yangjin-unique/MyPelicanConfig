@@ -1,5 +1,5 @@
 Title: qemu和gdb调试
-Date: 2013-1-15
+Date: 2014-1-15
 Category: os
 Tags: os, qemu, gdb, debug
 Author: jin

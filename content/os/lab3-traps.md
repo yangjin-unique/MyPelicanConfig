@@ -1,5 +1,5 @@
 Title: lab3: Interrupts, Exceptions, Traps, Syscall
-Date: 2013-4-1
+Date: 2014-4-1
 Category: os
 Tags: os, interrupts, exceptions, traps, syscall, task swtich
 Author: jin
@@ -30,7 +30,7 @@ trap gates；
 ####2. 任务状态段TSS：task state segment
 中断发生时，需要从当前任务中切换到中断模式，所以内核需要将当前任务环境存在某个地方以方便中断返回后继续执行当前任务。cpu会将当前任务环境（包括cs和eip等）保存到内核栈，内核利用这个TSS来实现这个，TSS是JOS内核自己定义的全局变量，然后在GDR中初始化TSS段描述符（属于task segment：GD_TSS0）：
     
-    
+    :::c 
     static  struct  Taskstate  ts;
     // Task state segment format (as described by the Pentium architecture book)
     struct Taskstate {

@@ -1,5 +1,5 @@
 Title: lab1: bootloader
-Date: 2013-1-13
+Date: 2014-1-13
 Category: os
 Tags: os, bootloader, JOS, BIOS
 Author: jin

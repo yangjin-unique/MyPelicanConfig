@@ -1,5 +1,5 @@
 Title: lab2-exercise2：页表
-Date: 2013-2-1
+Date: 2014-2-1
 Category: os
 Tags: os, page table, page directory, address translation
 Author: jin
